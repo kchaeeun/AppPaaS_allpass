@@ -11,5 +11,6 @@ public class HomeController {
     public String home(Model model) {
         model.addAttribute("msg", "스프링 부트 애플리케이션이 성공적으로 배포되었습니다.");
         return "deployed";
+        
     }
 }
